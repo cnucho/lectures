@@ -1,0 +1,11 @@
+---
+title: "Lecture Repository"
+---
+
+## Courses
+
+- [AI and Communication](courses/ai-and-communication/index.qmd)
+
+## Notes
+
+This site collects lecture materials, weekly slides, and related resources.

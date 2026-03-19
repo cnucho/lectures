@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Lecture Repository"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: courses/ai-and-communication/index.qmd
+        text: AI and Communication
+      - href: blog/index.qmd
+        text: Blog
+
+format:
+  html:
+    theme: cosmo
+    toc: true

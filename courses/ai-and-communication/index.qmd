@@ -1,0 +1,11 @@
+---
+title: "AI and Communication"
+---
+
+## Course Overview
+
+This course explores how artificial intelligence changes communication, attention, interpretation, and knowledge work.
+
+## Weekly Materials
+
+- [Week 1. Introduction](week01.qmd)

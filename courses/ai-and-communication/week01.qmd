@@ -1,0 +1,14 @@
+---
+title: "Week 1. Introduction"
+format: html
+---
+
+## Key Questions
+
+- What is communication?
+- How does AI change the structure of communication?
+- Why do interfaces matter?
+
+## Lecture Notes
+
+Write your lecture content here.
