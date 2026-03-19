@@ -1,38 +1,24 @@
 [
   {
-    "objectID": "courses/ai-and-communication/week03.html",
-    "href": "courses/ai-and-communication/week03.html",
-    "title": "Week 3. Listening",
-    "section": "",
-    "text": "Active listening in AI-mediated communication\nFeedback loops\nCase discussion"
-  },
-  {
-    "objectID": "courses/ai-and-communication/week03.html#topics",
-    "href": "courses/ai-and-communication/week03.html#topics",
-    "title": "Week 3. Listening",
-    "section": "",
-    "text": "Active listening in AI-mediated communication\nFeedback loops\nCase discussion"
-  },
-  {
     "objectID": "courses/ai-and-communication/index.html",
     "href": "courses/ai-and-communication/index.html",
     "title": "AI and Communication",
     "section": "",
-    "text": "Week 1. Introduction\nWeek 3. Listening"
+    "text": "This course explores how artificial intelligence changes communication, attention, interpretation, and knowledge work."
+  },
+  {
+    "objectID": "courses/ai-and-communication/index.html#course-overview",
+    "href": "courses/ai-and-communication/index.html#course-overview",
+    "title": "AI and Communication",
+    "section": "",
+    "text": "This course explores how artificial intelligence changes communication, attention, interpretation, and knowledge work."
   },
   {
     "objectID": "courses/ai-and-communication/index.html#weekly-materials",
     "href": "courses/ai-and-communication/index.html#weekly-materials",
     "title": "AI and Communication",
-    "section": "",
-    "text": "Week 1. Introduction\nWeek 3. Listening"
-  },
-  {
-    "objectID": "courses/ai-and-communication/index.html#overview",
-    "href": "courses/ai-and-communication/index.html#overview",
-    "title": "AI and Communication",
-    "section": "Overview",
-    "text": "Overview\nCourse notes and lecture resources for AI and Communication."
+    "section": "Weekly Materials",
+    "text": "Weekly Materials\n\nWeek 1. Introduction\nWeek 1. Listening"
   },
   {
     "objectID": "index.html",
@@ -68,19 +54,5 @@
     "title": "Blog",
     "section": "",
     "text": "Posts and short notes will be added here."
-  },
-  {
-    "objectID": "courses/ai-and-communication/week01.html",
-    "href": "courses/ai-and-communication/week01.html",
-    "title": "Week 1. Introduction",
-    "section": "",
-    "text": "Course orientation\nCore concepts of AI and communication\nWeekly workflow"
-  },
-  {
-    "objectID": "courses/ai-and-communication/week01.html#topics",
-    "href": "courses/ai-and-communication/week01.html#topics",
-    "title": "Week 1. Introduction",
-    "section": "",
-    "text": "Course orientation\nCore concepts of AI and communication\nWeekly workflow"
   }
 ]
