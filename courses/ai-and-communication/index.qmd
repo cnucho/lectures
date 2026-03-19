@@ -1,0 +1,12 @@
+---
+title: "AI and Communication"
+---
+
+## Weekly Materials
+
+- [Week 1. Introduction](week01.qmd)
+- [Week 3. Listening](week03.qmd)
+
+## Overview
+
+Course notes and lecture resources for AI and Communication.

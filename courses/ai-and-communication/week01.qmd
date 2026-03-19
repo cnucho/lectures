@@ -1,0 +1,9 @@
+---
+title: "Week 1. Introduction"
+---
+
+## Topics
+
+- Course orientation
+- Core concepts of AI and communication
+- Weekly workflow
