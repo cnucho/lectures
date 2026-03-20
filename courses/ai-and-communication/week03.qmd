@@ -5,6 +5,7 @@ format:
     theme: [simple, custom.scss]
     slide-number: true
     transition: slide
+    slide-level: 1
 ---
 
 # How We Really Listen
@@ -12,14 +13,12 @@ format:
 Listening is not passive.  
 It is selective and limited.
 
----
 
 # Selectivity (Concept)
 
 We cannot process everything.  
 We choose what to hear.
 
----
 
 # Selectivity (Visual)
 
@@ -30,7 +29,6 @@ Imagine:
 Diagram idea:  
 [Many inputs] -> [Filter] -> [Selected info]
 
----
 
 # Iyengar Experiment
 
@@ -39,7 +37,6 @@ Diagram idea:
 Result:  
 Fewer choices -> more decisions
 
----
 
 # Iyengar (Visual)
 
@@ -47,7 +44,6 @@ Diagram:
 24 choices -> overload -> no decision  
 6 choices -> manageable -> decision
 
----
 
 # Information Overload
 
@@ -56,7 +52,6 @@ Too much information -> less listening
 Example:  
 Endless news, SNS feeds
 
----
 
 # Bias in Listening
 
@@ -65,7 +60,6 @@ We prefer familiar ideas.
 This is:  
 Confirmation bias
 
----
 
 # Echo Chamber (Visual)
 
@@ -74,7 +68,6 @@ User -> similar content -> reinforced belief -> repeat
 
 Cycle continues.
 
----
 
 # Reference Point
 
@@ -83,20 +76,17 @@ We judge relatively.
 Example:  
 Big first -> small feels smaller
 
----
 
 # Contrast Effect (Visual)
 
 Diagram:  
 Big stimulus -> Medium stimulus -> perceived smaller
 
----
 
 # Kahneman: Prospect Theory
 
 We think in gain vs loss, not absolute value.
 
----
 
 # Prospect Theory (Visual)
 
@@ -105,7 +95,6 @@ Reference point
 Gain (+)  
 Loss (-, stronger impact)
 
----
 
 # Peak-End Rule
 
@@ -113,7 +102,6 @@ We remember:
 - Peak moment
 - Ending
 
----
 
 # Peak-End (Visual)
 
@@ -123,7 +111,6 @@ Start -> Peak -> End
 Memory focuses on:  
 Peak + End
 
----
 
 # Human Listening Limits
 
@@ -131,13 +118,11 @@ Peak + End
 - Biased
 - Context-dependent
 
----
 
 # Enter AI
 
 AI processes large data.
 
----
 
 # AI vs Human (Visual)
 
@@ -147,7 +132,6 @@ Limited -> selective
 AI:  
 Large input -> broad processing
 
----
 
 # Externalized Listening
 
@@ -156,7 +140,6 @@ Listening moves outside the brain.
 Example:  
 Automatic news summary
 
----
 
 # System vs Tool
 
@@ -166,25 +149,21 @@ Ask -> answer
 System:  
 Collect -> filter -> analyze
 
----
 
 # Automated Listening System (Visual)
 
 Data -> Collection -> Filtering -> Analysis -> Insight
 
----
 
 # Example: News Analysis
 
 Thousands of articles -> filtered -> summarized
 
----
 
 # Example: Interview Analysis
 
 Many voices -> transcription -> categorization -> pattern detection
 
----
 
 # Research to Everyday
 
@@ -194,14 +173,12 @@ Experts only
 Now:  
 Everyone can use
 
----
 
 # Invisible Process
 
 System works automatically.  
 User sees only the result.
 
----
 
 # New Inequality
 
@@ -211,7 +188,6 @@ Ability
 New:  
 System
 
----
 
 # Final Question
 
