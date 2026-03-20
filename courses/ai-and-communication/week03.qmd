@@ -2,7 +2,7 @@
 title: "Week 3. Listening in the AI Age (Visual Version)"
 format:
   revealjs:
-    theme: simple
+    theme: [simple, custom.scss]
     slide-number: true
     transition: slide
 ---
