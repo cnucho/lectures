@@ -1,21 +1,22 @@
 ---
-title: "Listening in the AI Age (Visual Version)"
+title: "Week 3. Listening in the AI Age (Visual Version)"
 format:
   revealjs:
     theme: simple
     slide-number: true
+    transition: slide
 ---
 
 # How We Really Listen
 
-Listening is not passive.
+Listening is not passive.  
 It is selective and limited.
 
 ---
 
 # Selectivity (Concept)
 
-We cannot process everything.
+We cannot process everything.  
 We choose what to hear.
 
 ---
@@ -23,11 +24,11 @@ We choose what to hear.
 # Selectivity (Visual)
 
 Imagine:
-- Many voices → one heard
-- Many messages → few remembered
+- Many voices -> one heard
+- Many messages -> few remembered
 
-Diagram idea:
-[Many inputs] → [Filter] → [Selected info]
+Diagram idea:  
+[Many inputs] -> [Filter] -> [Selected info]
 
 ---
 
@@ -35,183 +36,180 @@ Diagram idea:
 
 24 options vs 6 options
 
-Result:
-Fewer choices → more decisions
+Result:  
+Fewer choices -> more decisions
 
 ---
 
 # Iyengar (Visual)
 
-Diagram:
-24 choices → overload → no decision  
-6 choices → manageable → decision  
+Diagram:  
+24 choices -> overload -> no decision  
+6 choices -> manageable -> decision
 
 ---
 
 # Information Overload
 
-Too much information → less listening
+Too much information -> less listening
 
-Example:
+Example:  
 Endless news, SNS feeds
 
 ---
 
 # Bias in Listening
 
-We prefer familiar ideas
+We prefer familiar ideas.
 
-This is:
+This is:  
 Confirmation bias
 
 ---
 
 # Echo Chamber (Visual)
 
-Diagram:
-User → similar content → reinforced belief → repeat
+Diagram:  
+User -> similar content -> reinforced belief -> repeat
 
-Cycle continues
+Cycle continues.
 
 ---
 
 # Reference Point
 
-We judge relatively
+We judge relatively.
 
-Example:
-Big first → small feels smaller
+Example:  
+Big first -> small feels smaller
 
 ---
 
 # Contrast Effect (Visual)
 
-Diagram:
-Big stimulus → Medium stimulus → perceived smaller
+Diagram:  
+Big stimulus -> Medium stimulus -> perceived smaller
 
 ---
 
 # Kahneman: Prospect Theory
 
-We think in:
-Gain vs loss
-
-Not absolute value
+We think in gain vs loss, not absolute value.
 
 ---
 
 # Prospect Theory (Visual)
 
-Diagram:
+Diagram:  
 Reference point  
-↑ Gain  
-↓ Loss (stronger impact)
+Gain (+)  
+Loss (-, stronger impact)
 
 ---
 
 # Peak-End Rule
 
 We remember:
-- Peak moment  
-- Ending  
+- Peak moment
+- Ending
 
 ---
 
 # Peak-End (Visual)
 
-Timeline:
-Start ——— Peak ——— End  
+Timeline:  
+Start -> Peak -> End
 
-Memory focuses on:
+Memory focuses on:  
 Peak + End
 
 ---
 
 # Human Listening Limits
 
-- Selective  
-- Biased  
-- Context-dependent  
+- Selective
+- Biased
+- Context-dependent
 
 ---
 
 # Enter AI
 
-AI processes large data
+AI processes large data.
 
 ---
 
 # AI vs Human (Visual)
 
-Human:
-Limited → selective  
+Human:  
+Limited -> selective
 
-AI:
-Large input → broad processing  
+AI:  
+Large input -> broad processing
 
 ---
 
 # Externalized Listening
 
-Listening moves outside brain
+Listening moves outside the brain.
 
-Example:
+Example:  
 Automatic news summary
 
 ---
 
 # System vs Tool
 
-Tool:
-Ask → answer  
+Tool:  
+Ask -> answer
 
-System:
-Collect → filter → analyze  
+System:  
+Collect -> filter -> analyze
 
 ---
 
 # Automated Listening System (Visual)
 
-Data → Collection → Filtering → Analysis → Insight
+Data -> Collection -> Filtering -> Analysis -> Insight
 
 ---
 
 # Example: News Analysis
 
-Thousands of articles → filtered → summarized
+Thousands of articles -> filtered -> summarized
 
 ---
 
 # Example: Interview Analysis
 
-Many voices → transcription → categorization → pattern detection
+Many voices -> transcription -> categorization -> pattern detection
 
 ---
 
 # Research to Everyday
 
-Before:
-Experts only  
+Before:  
+Experts only
 
-Now:
-Everyone can use  
+Now:  
+Everyone can use
 
 ---
 
 # Invisible Process
 
-System works automatically  
-User sees result  
+System works automatically.  
+User sees only the result.
 
 ---
 
 # New Inequality
 
-Old:
-Ability  
+Old:  
+Ability
 
-New:
-System  
+New:  
+System
 
 ---
 
