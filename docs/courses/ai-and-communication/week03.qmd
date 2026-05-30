@@ -1,0 +1,492 @@
+---
+title: "듣기의 구조적 전환"
+subtitle: "인간 듣기에서 AI + 코드 기반 확장 인지로"
+author: "강의자료 초안"
+lang: ko-KR
+format: revealjs
+---
+
+## {.center}
+
+<div class="hero">
+  <div class="kicker">Lecture Deck · Quarto RevealJS</div>
+  <div class="hero-title">
+    듣기는 단순한 수용이 아니라<br>
+    <span class="accent">선별·왜곡·재구성</span>의 과정이다
+  </div>
+  <div class="hero-sub">
+    이 자료는 티스토리 본문을 설명하는 보조 자료를 목표로 한다.
+    따라서 문장을 최대한 줄이되, 개념 간 관계는 더 분명하게 드러내도록 설계했다.
+  </div>
+  <div class="hero-meta">
+    <div class="chip">주제: 인간 듣기 / 확장 인지 / AI + 코드</div>
+    <div class="chip">형식: 설명형 슬라이드</div>
+    <div class="chip">활용: 수업 · 블로그 보조 자료</div>
+  </div>
+</div>
+
+::: {.footer-mini}
+듣기의 구조적 전환 — 강의자료
+:::
+
+---
+
+## 왜 듣기를 “인지 구조”로 보아야 하는가
+
+<div class="grid-3">
+  <div class="panel">
+    <div class="badge">전제 1</div>
+    <div class="card-head">작업기억은 제한되어 있다</div>
+    <div class="card-desc">인간은 외부에서 들어오는 정보를 모두 유지할 수 없다. 듣기는 필연적으로 일부 정보만 붙잡는 과정이 된다.</div>
+  </div>
+  <div class="panel">
+    <div class="badge">전제 2</div>
+    <div class="card-head">선택은 무작위가 아니다</div>
+    <div class="card-desc">어떤 정보를 들을지, 어떤 정보를 흘려보낼지는 경험 속에서 형성된 스키마와 휴리스틱에 의해 조직된다.</div>
+  </div>
+  <div class="panel">
+    <div class="badge">전제 3</div>
+    <div class="card-head">기억은 누적이 아니라 재구성이다</div>
+    <div class="card-desc">듣기의 결과는 그대로 저장되지 않는다. 강한 순간과 마지막 순간이 전체 인상을 다시 짜 맞춘다.</div>
+  </div>
+</div>
+
+<div class="note-strip">
+이 슬라이드의 핵심은 “듣기”를 감각적 입력이 아니라 <strong>용량 제한을 가진 선택 시스템</strong>으로 다시 정의하는 데 있다.
+</div>
+
+---
+
+## 인간 듣기의 기본 구조
+
+<div class="flow-diagram">
+  <div class="flow-box">
+    <div class="flow-key">Input</div>
+    <div class="flow-title">외부 정보</div>
+    <div class="flow-desc">발화, 기사, SNS, 강의, 대화처럼 매우 많은 자극이 동시에 유입된다. 문제는 양이 아니라 처리 가능성이다.</div>
+  </div>
+
+  <div class="flow-arrow">
+    <div class="symbol">→</div>
+    <div class="label">용량 제한</div>
+  </div>
+
+  <div class="flow-box emphasis">
+    <div class="flow-key">Selection</div>
+    <div class="flow-title">선별성</div>
+    <div class="flow-desc">작업기억 한계 때문에 일부만 선택된다. 인간은 전체를 듣는 것이 아니라, 우선순위가 붙은 일부를 듣는다.</div>
+  </div>
+
+  <div class="flow-arrow">
+    <div class="symbol">→</div>
+    <div class="label">해석 틀 개입</div>
+  </div>
+
+  <div class="flow-box">
+    <div class="flow-key">Interpretation</div>
+    <div class="flow-title">스키마·휴리스틱</div>
+    <div class="flow-desc">기존 지식, 기대, 경험적 규칙이 정보 해석의 기준이 된다. 이때 의미는 중립적으로 읽히지 않는다.</div>
+  </div>
+
+  <div class="flow-arrow">
+    <div class="symbol">→</div>
+    <div class="label">가중치 편향</div>
+  </div>
+
+  <div class="flow-box dark">
+    <div class="flow-key">Outcome</div>
+    <div class="flow-title">왜곡된 기억</div>
+    <div class="flow-desc">들은 내용은 객관적 총량이 아니라, 선택과 해석을 통과한 결과로 남는다. 즉 듣기는 재현이 아니라 재구성이다.</div>
+  </div>
+</div>
+
+<div class="note-strip">
+개념 설명 포인트: <strong>선별성</strong>은 단순한 정보 축소가 아니다. 이미 여기서부터 해석과 왜곡의 방향이 결정된다.
+</div>
+
+---
+
+## 선택은 왜 문제를 만드는가
+
+<div class="grid-2">
+  <div class="panel-soft">
+    <div class="mini-title">행동경제학적 관찰</div>
+    <div class="big-number">선택 과잉</div>
+    <div class="card-head">선택지가 많을수록 결정은 촉진되지 않을 수 있다</div>
+    <div class="card-desc">Iyengar의 잼 실험은 많은 선택지가 더 좋은 선택을 만들기보다, 오히려 회피와 미루기를 낳을 수 있음을 보여 준다. 듣기에서도 많은 발화 중 일부만 붙잡게 되는 이유를 설명한다.</div>
+  </div>
+
+  <div class="panel">
+    <div class="mini-title">듣기 상황으로의 확장</div>
+    <div class="card-head">많은 정보는 ‘더 잘 듣기’로 이어지지 않는다</div>
+    <div class="card-desc">
+      정보량이 커질수록 인간은 모든 내용을 공정하게 평가하지 못한다.
+      결국 현재 관심사, 익숙한 표현, 눈에 띄는 주장에 더 크게 반응하고
+      나머지는 배경 소음처럼 처리해 버린다.
+    </div>
+    <div class="note-strip">즉 “정보 증가 → 이해 증가”가 아니라, “정보 증가 → 선택 압력 증가”가 된다.</div>
+  </div>
+</div>
+
+---
+
+## 선별성은 어떻게 편향으로 이어지는가
+
+<div class="flow-diagram">
+  <div class="flow-box">
+    <div class="flow-key">Bias 1</div>
+    <div class="flow-title">기존 신념</div>
+    <div class="flow-desc">이미 가지고 있는 세계관과 기대가 정보의 중요도를 미리 결정한다.</div>
+  </div>
+
+  <div class="flow-arrow">
+    <div class="symbol">→</div>
+    <div class="label">일치 정보 선호</div>
+  </div>
+
+  <div class="flow-box emphasis">
+    <div class="flow-key">Bias 2</div>
+    <div class="flow-title">확인편향</div>
+    <div class="flow-desc">자신과 맞는 정보는 더 신뢰하고, 맞지 않는 정보는 덜 보거나 더 빨리 버린다.</div>
+  </div>
+
+  <div class="flow-arrow">
+    <div class="symbol">→</div>
+    <div class="label">반복 노출</div>
+  </div>
+
+  <div class="flow-box alert">
+    <div class="flow-key">Bias 3</div>
+    <div class="flow-title">에코 챔버</div>
+    <div class="flow-desc">비슷한 신념의 정보만 반복적으로 들리면서 외부 현실 대신 자기 신념의 반향 구조가 형성된다.</div>
+  </div>
+
+  <div class="flow-arrow">
+    <div class="symbol">→</div>
+    <div class="label">현실 대체</div>
+  </div>
+
+  <div class="flow-box dark">
+    <div class="flow-key">Result</div>
+    <div class="flow-title">폐쇄적 듣기</div>
+    <div class="flow-desc">듣기는 더 이상 외부를 수정해 주는 창이 아니라, 자기 신념을 강화하는 순환 장치가 된다.</div>
+  </div>
+</div>
+
+<div class="note-strip">
+특히 SNS 환경에서는 선택과 반복 노출이 동시에 강화되기 때문에, 편향의 구조가 훨씬 더 빠르고 강하게 굳어진다.
+</div>
+
+---
+
+## 판단은 절대 기준이 아니라 “직전 기준”에 묶인다
+
+<div class="shift-band">
+  <div class="shift-box before">
+    <div class="shift-title">기준점 이전 사고</div>
+    <div class="shift-desc">우리는 흔히 정보를 있는 그대로 듣고 평가한다고 생각한다. 이 관점은 판단 기준이 고정되어 있다고 가정한다.</div>
+    <div class="shift-points">
+      <div>정보는 절대값으로 인식된다</div>
+      <div>강한 주장과 약한 주장을 독립적으로 비교할 수 있다</div>
+      <div>같은 메시지는 비슷하게 평가된다</div>
+    </div>
+  </div>
+
+  <div class="shift-arrow">⟶</div>
+
+  <div class="shift-box after">
+    <div class="shift-title">기준점 의존적 사고</div>
+    <div class="shift-desc">실제로는 직전에 본 사례와 강도, 대비 효과가 이후 판단의 기준을 바꾼다. 즉, 듣기는 항상 동적으로 재설정된 기준 위에서 이루어진다.</div>
+    <div class="shift-points">
+      <div>강한 주장 이후에는 중간 정도 주장도 약하게 보일 수 있다</div>
+      <div>극단적 사례가 이후 정보의 해석 기준을 바꾼다</div>
+      <div>평가는 내용 자체보다 배치 순서에 영향을 받는다</div>
+    </div>
+  </div>
+</div>
+
+<div class="note-strip">
+대비 효과는 “내용의 왜곡”이라기보다, <strong>평가 좌표 자체의 이동</strong>이라고 이해하는 편이 더 정확하다.
+</div>
+
+---
+
+## 기억은 평균이 아니라 피크와 끝에 의해 재구성된다
+
+<div class="grid-2">
+  <div class="panel-dark">
+    <div class="mini-title">Kahneman</div>
+    <div class="card-head">피크-엔드 규칙</div>
+    <div class="card-desc">
+      인간은 경험 전체를 평균적으로 저장하지 않는다.
+      가장 강렬했던 순간과 마지막 순간이 전체 경험의 질을 대표하게 된다.
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="mini-title">강의에 적용</div>
+    <div class="card-head">같은 길이의 강의도 다르게 기억된다</div>
+    <div class="card-desc">
+      중간에 인상적인 설명이 있고 마지막 정리가 선명하면
+      전체 강의의 평가가 높아진다.
+      즉 듣기의 품질은 “전체 정보량”보다 “구조화된 기억 지점”에 더 크게 좌우된다.
+    </div>
+  </div>
+</div>
+
+<div class="statement">
+  <div class="line">듣기는 누적이 아니라 <span class="accent">기억을 위한 재구성</span>이다</div>
+  <div class="sub">이 관점에서 보면, 강의·뉴스·회의·인터뷰는 모두 “얼마나 많이 말했는가”보다 “어떤 피크와 어떤 종료점을 만들었는가”가 더 중요해진다.</div>
+</div>
+
+---
+
+## 여기서 AI가 등장한다
+
+<div class="grid-2">
+  <div class="panel">
+    <div class="mini-title">보완 가능성</div>
+    <div class="card-head">AI는 인간처럼 강한 선별에만 의존하지 않는다</div>
+    <div class="card-desc">대규모 텍스트를 병렬적으로 검토하고, 동일한 규칙으로 반복 처리하며, 많은 자료를 한 번에 분류할 수 있다. 이 점에서 인간의 정보처리 부족을 실질적으로 보완한다.</div>
+  </div>
+
+  <div class="panel-soft">
+    <div class="mini-title">제약</div>
+    <div class="card-head">그러나 AI도 완전한 듣기 장치는 아니다</div>
+    <div class="card-desc">현재 AI는 주로 텍스트에 의존하며, 시선·표정·억양·상황 맥락 같은 비언어적 신호를 충분히 반영하지 못한다. 또한 데이터 접근 한계와 학습 편향, 요약 압축 역시 새로운 왜곡을 만든다.</div>
+  </div>
+</div>
+
+<div class="note-strip">
+따라서 AI의 의미는 “인간을 대체하는 완전한 청자”가 아니라, <strong>듣기의 범위를 외부로 확장하는 계산 장치</strong>에 더 가깝다.
+</div>
+
+---
+
+## 핵심 비교: 인간 vs AI vs AI + 코드
+
+<div class="compare-3">
+  <div class="compare-col">
+    <div class="compare-top human">인간 듣기</div>
+    <div class="compare-body">
+      <ul>
+        <li>작업기억 한계 때문에 일부만 선택한다</li>
+        <li>스키마와 휴리스틱이 해석을 이끈다</li>
+        <li>확인편향과 에코 챔버 위험이 크다</li>
+        <li>기억은 피크와 마지막에 의해 재구성된다</li>
+      </ul>
+      <div class="scoreline"><strong>핵심 특징:</strong> 부분 처리 · 높은 의미 민감도 · 높은 왜곡 가능성</div>
+    </div>
+  </div>
+
+  <div class="compare-col">
+    <div class="compare-top ai">AI 활용</div>
+    <div class="compare-body">
+      <ul>
+        <li>입력된 텍스트 범위 안에서 응답을 생성한다</li>
+        <li>질문-응답 도구로 쓰일 때 수집과 선별은 여전히 인간 몫이다</li>
+        <li>맥락 반영과 데이터 범위가 제한될 수 있다</li>
+        <li>보조는 가능하지만 처리 시스템 전체를 바꾸지는 못한다</li>
+      </ul>
+      <div class="scoreline"><strong>핵심 특징:</strong> 응답 보조 · 입력 의존 · 부분적 확장</div>
+    </div>
+  </div>
+
+  <div class="compare-col">
+    <div class="compare-top system">AI + 코드</div>
+    <div class="compare-body">
+      <ul>
+        <li>수집·전처리·필터링·구조화·요약이 연결된 파이프라인을 만든다</li>
+        <li>사전에 정한 규칙에 따라 일관되게 선별할 수 있다</li>
+        <li>대량 데이터의 반복 처리와 전수 분석이 가능하다</li>
+        <li>개인 수준에서도 확장된 인지 시스템을 구축할 수 있다</li>
+      </ul>
+      <div class="scoreline"><strong>핵심 특징:</strong> 시스템화 · 자동화 · 확장된 듣기</div>
+    </div>
+  </div>
+</div>
+
+---
+
+## 왜 “AI 활용”과 “AI + 코드”를 구분해야 하는가
+
+<div class="grid-2">
+  <div class="panel">
+    <div class="mini-title">단순 AI 활용</div>
+    <div class="card-head">대화창 기반 사용</div>
+    <div class="card-desc">
+      질문을 입력하고 답을 받는 수준에서는,
+      어떤 자료를 모을지, 무엇을 제외할지, 어떤 순서로 읽을지는 여전히 인간이 정한다.
+      따라서 선별성의 핵심 문제는 남아 있다.
+    </div>
+  </div>
+
+  <div class="panel-dark">
+    <div class="mini-title">AI + 코드 결합</div>
+    <div class="card-head">듣기 전체를 하나의 처리 시스템으로 재구성</div>
+    <div class="card-desc">
+      뉴스 수집, 인터뷰 전사, 문서 분류, 주제별 요약, 패턴 추출이 자동화되면
+      인간은 일부만 보는 존재에서, 기준을 설계하고 결과를 검토하는 존재로 이동한다.
+    </div>
+  </div>
+</div>
+
+<div class="note-strip">
+중요한 차이는 AI가 “똑똑하냐”가 아니라, <strong>데이터 흐름과 분석 규칙이 연결되어 있느냐</strong>에 있다.
+</div>
+
+---
+
+## 자동화된 확장 인지 시스템
+
+<div class="flow-diagram">
+  <div class="flow-box">
+    <div class="flow-key">1. Collection</div>
+    <div class="flow-title">데이터 수집</div>
+    <div class="flow-desc">뉴스, 인터뷰, 회의록, 논문, SNS, 검색 결과를 지속적으로 모은다. 인간의 순간적 관심 대신 시스템이 범위를 확보한다.</div>
+  </div>
+
+  <div class="flow-arrow">
+    <div class="symbol">→</div>
+    <div class="label">정리</div>
+  </div>
+
+  <div class="flow-box">
+    <div class="flow-key">2. Preprocess</div>
+    <div class="flow-title">전처리·정제</div>
+    <div class="flow-desc">중복 제거, 형식 통일, 발화 단위 분리, 메타데이터 부착 등 분석 가능한 구조로 변환한다.</div>
+  </div>
+
+  <div class="flow-arrow">
+    <div class="symbol">→</div>
+    <div class="label">명시적 기준</div>
+  </div>
+
+  <div class="flow-box emphasis">
+    <div class="flow-key">3. Structure</div>
+    <div class="flow-title">필터링·구조화</div>
+    <div class="flow-desc">미리 정한 규칙과 조건에 따라 주제, 감정, 논점, 시간 흐름 등을 체계적으로 배열한다.</div>
+  </div>
+
+  <div class="flow-arrow">
+    <div class="symbol">→</div>
+    <div class="label">의미 추출</div>
+  </div>
+
+  <div class="flow-box dark">
+    <div class="flow-key">4. Interpretation</div>
+    <div class="flow-title">AI 해석·요약·패턴 추출</div>
+    <div class="flow-desc">전체를 본 뒤 핵심 흐름과 반복 구조를 잡아낸다. 이때 사용자는 결과를 통해 자신의 지식 구조를 갱신한다.</div>
+  </div>
+</div>
+
+<div class="note-strip">
+여기서 핵심은 “많은 메시지 중 일부를 고르는 인간적 선별”에서, “전체를 처리한 뒤 기준에 따라 다시 조직하는 기계적 선별”로 이동한다는 점이다.
+</div>
+
+---
+
+## 듣기의 성격은 어떻게 바뀌는가
+
+<div class="shift-band">
+  <div class="shift-box before">
+    <div class="shift-title">기존 듣기</div>
+    <div class="shift-desc">제한된 시간과 기억 안에서 일부를 선택하고, 기억과 메모를 중심으로 의미를 유지한다.</div>
+    <div class="shift-points">
+      <div>질문의 출발점: 무엇을 볼 것인가</div>
+      <div>선별 기준: 직관, 흥미, 익숙함</div>
+      <div>기억 방식: 개인의 머릿속 저장</div>
+      <div>격차 원인: 지능, 훈련, 배경지식</div>
+    </div>
+  </div>
+
+  <div class="shift-arrow">⟶</div>
+
+  <div class="shift-box after">
+    <div class="shift-title">확장된 듣기</div>
+    <div class="shift-desc">가능한 한 많은 정보를 확보한 뒤, 명시적 기준으로 구조화하고 재분석 가능한 형태로 축적한다.</div>
+    <div class="shift-points">
+      <div>질문의 출발점: 어떻게 구조화할 것인가</div>
+      <div>선별 기준: 규칙, 조건, 파이프라인</div>
+      <div>기억 방식: 외부 시스템에 저장·갱신</div>
+      <div>격차 원인: 어떤 시스템을 설계·활용하는가</div>
+    </div>
+  </div>
+</div>
+
+---
+
+## 개인 수준에서도 이미 가능한 변화
+
+<div class="grid-3">
+  <div class="panel">
+    <div class="mini-title">연구</div>
+    <div class="card-head">인터뷰 전수 분석</div>
+    <div class="card-desc">모든 인터뷰를 자동 전사하고, 의미 단위별로 분류해 반복 패턴을 추출할 수 있다. 일부 발화만 보는 방식에서 벗어난다.</div>
+  </div>
+  <div class="panel">
+    <div class="mini-title">학습</div>
+    <div class="card-head">장문 문서 독해 보조</div>
+    <div class="card-desc">논문, 보고서, 뉴스 묶음을 지속적으로 요약·비교해 자신의 지식 구조를 업데이트할 수 있다.</div>
+  </div>
+  <div class="panel">
+    <div class="mini-title">업무</div>
+    <div class="card-head">회의록·메시지 분석</div>
+    <div class="card-desc">대화 전체를 정리하고 쟁점, 감정, 합의 여부를 추출해 개인 기억에 의존하지 않는 업무 판단을 만들 수 있다.</div>
+  </div>
+</div>
+
+<div class="note-strip">
+현재 개인 활용이 제한적인 이유는 기술 부족보다 <strong>사용 방식의 협소함</strong>에 가깝다. 많은 사용자가 AI를 여전히 질문-응답 도구로만 사용한다.
+</div>
+
+---
+
+## 결론: 듣기의 본질은 “개인 능력”에서 “설계된 시스템”으로 이동한다
+
+<div class="statement">
+  <div class="line">
+    듣기는 더 이상 단지 <span class="accent">개인의 생물학적 능력</span>이 아니다.<br>
+    점점 더 <span class="accent">외부 시스템과 결합된 확장 인지 과정</span>이 된다.
+  </div>
+  <div class="sub">
+    선천적 능력과 학습의 중요성이 사라지는 것은 아니다.
+    그러나 그 위에 “어떤 구조로 듣고 있는가”라는 새로운 변수가 추가되면서,
+    듣기의 질과 격차는 시스템 차이를 중심으로 다시 재편될 가능성이 커진다.
+  </div>
+</div>
+
+<div class="takeaways">
+  <div class="takeaway"><strong>핵심 1</strong>인간 듣기는 선별성·편향·기준점 의존·기억 재구성의 구조를 가진다.</div>
+  <div class="takeaway"><strong>핵심 2</strong>AI는 이 한계를 보완하지만, AI 단독은 여전히 입력과 데이터 편향에 묶인다.</div>
+  <div class="takeaway"><strong>핵심 3</strong>AI + 코드는 듣기 자체를 외재화한 자동화된 확장 인지 시스템으로 이어진다.</div>
+</div>
+
+---
+
+## Tistory 본문과 연결하는 사용 팁
+
+<div class="grid-2">
+  <div class="panel">
+    <div class="mini-title">본문용</div>
+    <div class="card-head">블로그 글에는 긴 설명을 유지</div>
+    <div class="card-desc">지금 작성하신 티스토리 글은 개념의 논리를 충분히 펼치는 본문 역할을 한다. 따라서 블로그에는 문단 설명을 유지하고, 슬라이드는 그 논리를 압축해 보여 주는 보조 자료로 두는 편이 좋다.</div>
+  </div>
+  <div class="panel-soft">
+    <div class="mini-title">슬라이드용</div>
+    <div class="card-head">각 슬라이드는 하나의 메시지만 남긴다</div>
+    <div class="card-desc">학생들이 글을 읽기 전에 구조를 이해하게 하려면, 슬라이드는 정보량을 줄이는 대신 개념 관계와 전환 지점을 선명하게 보여 줘야 한다.</div>
+  </div>
+</div>
+
+<div class="legend-table">
+| 자료 | 역할 | 권장 사용 |
+|---|---|---|
+| 티스토리 본문 | 논리 전개와 자세한 설명 | 예시, 이론 연결, 문장형 설명 |
+| Quarto 슬라이드 | 구조 압축과 설명 보조 | 도식, 비교, 핵심 문장 |
+| 핵심 도식 이미지 | 복습과 공유 | 본문 삽입, 수업 후 배포 |
+</div>
+
+::: {.footer-mini}
+이 deck은 외부 스타일 파일 분리 방식에 맞춰 작성됨
+:::
