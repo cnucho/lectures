@@ -1,0 +1,25 @@
+---
+title: "AI Company Lecture"
+---
+
+## Overview
+
+This folder contains the git-tracked source materials for the AI Company lecture on agentic AI, survey-data workflows, marketing planning, validation, and correction-level judgment.
+
+## Main Materials
+
+- [Full Markdown slides](AI-Company-lecture-full-slides.md)
+- [Marketing planner article draft](article-agent-era-marketing-planners-ko.md)
+- [Demo index](demo-index-ko.md)
+- [Final handoff](final-handoff-ko.md)
+- [Materials manifest](materials-manifest.json)
+
+## Dropbox Outputs
+
+Large generated outputs are stored outside git:
+
+```text
+C:\Users\ciadmin\Dropbox\gitwork_data\AI Company_lecture
+```
+
+Use the Dropbox folder for rendered HTML slides, demo videos, PPTX summary deck, audio, screenshots, and other generated assets.

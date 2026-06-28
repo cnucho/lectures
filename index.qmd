@@ -5,6 +5,7 @@ title: "Lecture Repository"
 ## Courses
 
 - [AI and Communication](courses/ai-and-communication/index.qmd)
+- [AI Company Lecture](courses/AI-Company-lecture/index.qmd)
 
 ## Notes
 

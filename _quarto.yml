@@ -14,6 +14,8 @@ website:
         text: Home
       - href: courses/ai-and-communication/index.qmd
         text: AI and Communication
+      - href: courses/AI-Company-lecture/index.qmd
+        text: AI Company Lecture
       - href: blog/index.qmd
         text: Blog
 
