@@ -32,6 +32,7 @@ These files are small, text-based, and should remain in git:
 - `courses/AI-Company-lecture/article-agent-era-marketing-planners-ko.md`
 - `courses/AI-Company-lecture/final-handoff-ko.md`
 - `courses/AI-Company-lecture/materials-manifest.json`
+- `courses/AI-Company-lecture/scripts/build_lecture_main_video.py`
 
 ## Dropbox Materials
 
@@ -59,6 +60,9 @@ Expected Dropbox contents:
 - `slides/preview/`
 - `column/blog-column-ko.md`
 - `video/correction-level-agent-demo.mp4`
+- `lecture-video/slide-lecture-ko/AI-Company-lecture-slide-lecture-ko.mp4`
+- `lecture-video/slide-lecture-ko/AI-Company-lecture-key-captions-ko.srt`
+- `lecture-video/slide-lecture-ko/lecture-video-manifest.json`
 - `metadata/render-report.json`
 - `metadata/sample-frame.png`
 - `screens/raw/`
@@ -68,7 +72,34 @@ Expected Dropbox contents:
 - `clips/`
 - `git_materials/`
 
-## Regenerate Video
+## Regenerate Slide Lecture Video
+
+The main lecture video must be generated from the full Markdown slide deck, not from the compact PPT summary.
+
+Command:
+
+```powershell
+cd C:\git-app\lectures
+python .\courses\AI-Company-lecture\scripts\build_lecture_main_video.py
+```
+
+Output:
+
+```text
+C:\Users\ciadmin\Dropbox\gitwork_data\AI Company_lecture\lecture-video\slide-lecture-ko\AI-Company-lecture-slide-lecture-ko.mp4
+C:\Users\ciadmin\Dropbox\gitwork_data\AI Company_lecture\lecture-video\slide-lecture-ko\AI-Company-lecture-key-captions-ko.srt
+```
+
+Current output:
+
+- Slide source: full Markdown deck, 55 slides
+- Duration: `1269.933984` seconds
+- Resolution: `1920x1080`
+- Audio: Korean narration generated through Google TTS
+- Caption policy: key emphasis captions only, not a full transcript
+- Demo policy: demo clips remain separate videos; the lecture slides mark the insertion points
+
+## Regenerate Demo Video
 
 Required local apps:
 
@@ -89,7 +120,7 @@ Output:
 C:\git-app\pr-studio\out\correction-level-agent-demo\correction-level-agent-demo.mp4
 ```
 
-## Current Render
+## Current Demo Render
 
 - Duration: `132.604333` seconds
 - Resolution: `1920x1080`
@@ -101,6 +132,8 @@ C:\git-app\pr-studio\out\correction-level-agent-demo\correction-level-agent-demo
 ## Current Lecture Deck
 
 - Primary Markdown deck: `C:\Users\ciadmin\Dropbox\gitwork_data\AI Company_lecture\slides-md\AI-Company-lecture-full-slides.md`
+- Main slide lecture video: `C:\Users\ciadmin\Dropbox\gitwork_data\AI Company_lecture\lecture-video\slide-lecture-ko\AI-Company-lecture-slide-lecture-ko.mp4`
+- Key-caption SRT: `C:\Users\ciadmin\Dropbox\gitwork_data\AI Company_lecture\lecture-video\slide-lecture-ko\AI-Company-lecture-key-captions-ko.srt`
 - Demo index: `C:\Users\ciadmin\Dropbox\gitwork_data\AI Company_lecture\slides-md\demo-index-ko.md`
 - Demo clips: `C:\Users\ciadmin\Dropbox\gitwork_data\AI Company_lecture\demos`
 - Deck: `C:\Users\ciadmin\Dropbox\gitwork_data\AI Company_lecture\slides\AI Company_lecture_deck.pptx`

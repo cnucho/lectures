@@ -1,0 +1,7 @@
+MethodIQ
+
+AI agents and workflow tools for research, survey analytics, proposal writing, and validation-first professional knowledge work.
+
+MethodIQ focuses on practical AI automation: not just getting an answer, but building systems that can check, revise, and improve the level at which work is solved.
+
+Topics: AI agents, research automation, survey data analysis, validation, professional writing, and applied AI workflows.

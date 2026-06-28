@@ -47,6 +47,7 @@ git에 들어간 텍스트/원본 자료:
 - `courses/AI-Company-lecture/demo-narration/02-pr-studio-press-release.txt`
 - `courses/AI-Company-lecture/materials-manifest.json`
 - `courses/AI-Company-lecture/README.md`
+- `courses/AI-Company-lecture/scripts/build_lecture_main_video.py`
 
 ## Dropbox 백업 자료
 
@@ -74,6 +75,20 @@ git에 넣지 않는 생성물과 큰 파일은 여기에 둔다.
 - `demos/demo-04-validation-server-ui.mp4`
 - `demos/demo-05-validation-result.mp4`
 
+### 강의 본편 영상
+
+강의 본편은 새 요약 슬라이드가 아니라 `AI-Company-lecture-full-slides.md` 55장 전체를 기준으로 만든다.
+
+- `lecture-video/slide-lecture-ko/AI-Company-lecture-slide-lecture-ko.mp4`
+- `lecture-video/slide-lecture-ko/AI-Company-lecture-key-captions-ko.srt`
+- `lecture-video/slide-lecture-ko/lecture-video-manifest.json`
+
+원칙:
+
+- 한국어 음성은 Google TTS를 사용한다.
+- 자막은 전체 받아쓰기가 아니라 중요한 강조 포인트만 넣는다.
+- 데모 영상은 본편 안에 하나로 합치지 않고, 슬라이드에서 삽입 지점만 보여준다.
+
 ### 글/칼럼
 
 - `column/article-agent-era-marketing-planners-ko.md`
@@ -96,14 +111,16 @@ PPTX는 본편이 아니라 짧은 요약본으로 유지한다.
 ## 현재 사용 권장 순서
 
 1. 칼럼 초안은 `article-agent-era-marketing-planners-ko.md`를 사용한다.
-2. 강의용 슬라이드는 `AI-Company-lecture-full-slides.html`을 사용한다.
-3. 데모는 HTML 슬라이드 중간에서 5개 독립 영상으로 재생한다.
-4. 고객 배포용 한국어 영상은 개인 유튜브 채널에 일부 공개로 올린다.
-5. MethodIQ 영어 채널에는 앱별 짧은 영어 데모를 별도로 올린다.
+2. 강의 본편 영상은 `lecture-video/slide-lecture-ko/AI-Company-lecture-slide-lecture-ko.mp4`를 사용한다.
+3. 유튜브 자막은 `lecture-video/slide-lecture-ko/AI-Company-lecture-key-captions-ko.srt`를 올린다.
+4. 라이브 발표나 HTML 발표에서는 `AI-Company-lecture-full-slides.html`을 사용하고, 데모는 5개 독립 영상으로 재생한다.
+5. 고객 배포용 한국어 영상은 개인 유튜브 채널에 일부 공개로 올린다.
+6. MethodIQ 영어 채널에는 앱별 짧은 영어 데모를 별도로 올린다.
 
 ## 아직 남은 작업
 
 - 한국어 유튜브 영상 제목, 설명, 태그, 썸네일 문구 작성
+- 강의 본편 영상과 SRT 자막을 유튜브에 업로드
 - MethodIQ 영어 채널용 데모 제목, 설명, 태그 작성
 - 데모 영상별 공개 링크 확보 후 칼럼과 슬라이드에 반영
 - 칼럼에 개인 이름, 컨슈머인사이트 직함, MethodIQ 소개 문구 최종 삽입

@@ -4,6 +4,7 @@
   "git_folder": "C:\\git-app\\lectures\\courses\\AI-Company-lecture",
   "dropbox_folder": "C:\\Users\\ciadmin\\Dropbox\\gitwork_data\\AI Company_lecture",
   "render_command": "cd C:\\git-app\\pr-studio; npm run render:correction-demo",
+  "lecture_video_render_command": "cd C:\\git-app\\lectures; python .\\courses\\AI-Company-lecture\\scripts\\build_lecture_main_video.py",
   "current_render": {
     "video_name": "correction-level-agent-demo.mp4",
     "duration_seconds": 132.604333,
@@ -16,6 +17,21 @@
       "BASE_N_MISMATCH",
       "CELL_SUM_MISMATCH"
     ]
+  },
+  "slide_lecture_video": {
+    "video_name": "AI-Company-lecture-slide-lecture-ko.mp4",
+    "duration_seconds": 1269.933984,
+    "resolution": "1920x1080",
+    "size_bytes": 25835594,
+    "audio": "Korean Google TTS narration",
+    "slide_source": "AI-Company-lecture-full-slides.md",
+    "slide_count": 55,
+    "caption_file": "AI-Company-lecture-key-captions-ko.srt",
+    "caption_policy": "Key emphasis captions only, not a full transcript.",
+    "demo_policy": "Demo clips remain separate videos; lecture slides mark insertion points.",
+    "dropbox_path": "C:\\Users\\ciadmin\\Dropbox\\gitwork_data\\AI Company_lecture\\lecture-video\\slide-lecture-ko\\AI-Company-lecture-slide-lecture-ko.mp4",
+    "caption_dropbox_path": "C:\\Users\\ciadmin\\Dropbox\\gitwork_data\\AI Company_lecture\\lecture-video\\slide-lecture-ko\\AI-Company-lecture-key-captions-ko.srt",
+    "manifest_dropbox_path": "C:\\Users\\ciadmin\\Dropbox\\gitwork_data\\AI Company_lecture\\lecture-video\\slide-lecture-ko\\lecture-video-manifest.json"
   },
   "current_deck": {
     "primary_format": "markdown",
@@ -74,7 +90,8 @@
     "courses/AI-Company-lecture/blog-column-ko.md",
     "courses/AI-Company-lecture/article-agent-era-marketing-planners-ko.md",
     "courses/AI-Company-lecture/final-handoff-ko.md",
-    "courses/AI-Company-lecture/materials-manifest.json"
+    "courses/AI-Company-lecture/materials-manifest.json",
+    "courses/AI-Company-lecture/scripts/build_lecture_main_video.py"
   ],
   "dropbox_materials": [
     "slides-md/AI-Company-lecture-full-slides.md",
@@ -93,6 +110,9 @@
     "slides/preview",
     "column/blog-column-ko.md",
     "video/correction-level-agent-demo.mp4",
+    "lecture-video/slide-lecture-ko/AI-Company-lecture-slide-lecture-ko.mp4",
+    "lecture-video/slide-lecture-ko/AI-Company-lecture-key-captions-ko.srt",
+    "lecture-video/slide-lecture-ko/lecture-video-manifest.json",
     "metadata/render-report.json",
     "metadata/sample-frame.png",
     "metadata/concat.txt",
